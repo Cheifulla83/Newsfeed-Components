@@ -135,8 +135,9 @@ function componentCreator(title, date, p1, p2, p3) {
   const para1 = document.createElement('p');
   const para2 = document.createElement('p');
   const para3 = document.createElement('p');
-  const expandBtn = document.createElement('span');
+  const expandBtn = document.createElement('button');
 
+  article.classList.add('article')
   articleDate.classList.add('date');
   expandBtn.classList.add('expandButton');
   articleTitle.textContent = title;
